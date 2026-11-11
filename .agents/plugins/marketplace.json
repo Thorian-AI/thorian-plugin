@@ -1,0 +1,12 @@
+{
+  "name": "thorian-beta",
+  "interface": {"displayName": "Thorian beta"},
+  "plugins": [
+    {
+      "name": "thorian",
+      "source": {"source": "local", "path": "./plugins/thorian"},
+      "policy": {"installation": "AVAILABLE", "authentication": "ON_INSTALL"},
+      "category": "Education & Research"
+    }
+  ]
+}
