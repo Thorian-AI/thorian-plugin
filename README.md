@@ -32,13 +32,13 @@ Open a fresh chat after updating. Release notes are in [CHANGELOG.md](CHANGELOG.
 
 ## ChatGPT
 
-This repository is a portable package, not a universal ChatGPT installation link. Availability of repository/local plugins depends on the host and workspace. A custom MCP connection by itself does not install the bundled research skill. ChatGPT beta onboarding remains in [Thorian's Agents screen](https://beta.thorian.ai/ingestion#agents); do not assume an owner-only plugin link can be installed by another account.
+This repository uses the Codex-compatible plugin format, not a universal ChatGPT installation link. Availability of repository/local plugins depends on the host and workspace; workspace imports with MCP servers may be desktop-only. A custom MCP connection by itself does not install the bundled research skill. ChatGPT beta onboarding remains in [Thorian's Agents screen](https://beta.thorian.ai/ingestion#agents); do not assume an owner-only plugin link can be installed by another account.
 
 ## What is included
 
-- Plugin `thorian`, version **0.1.1**.
+- Plugin `thorian`, version **0.1.2**.
 - Research skill **1.4.3**, preserved byte-for-byte from the tested release.
-- A plugin-specific connection helper and `https://beta.thorian.ai/mcp` configuration.
+- A plugin-specific connection helper and `https://beta.thorian.ai/mcp` configuration, including the registered public OAuth client and localhost callback. No client secret is needed.
 
 Research starts from graph relationships and uses original source text to resolve gaps or ambiguity. Extracted claims may be uncertain or incomplete; retain qualifications and check material findings against their cited sources. The integration provides read-only research access. The installed skill is readable by its users and is not a security control.
 

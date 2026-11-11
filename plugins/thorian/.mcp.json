@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "thorian": {
+      "url": "https://beta.thorian.ai/mcp",
+      "scopes": ["thorian.read", "offline_access"],
+      "oauth": {
+        "client_id": "client_01M5ZSXNDVF8N9127M4NJGJTSE",
+        "callback_url": "http://127.0.0.1:8769/callback/P0P5KSbj8csv",
+        "callback_port": 8769
+      }
+    }
+  }
+}

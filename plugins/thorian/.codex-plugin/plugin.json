@@ -1,0 +1,18 @@
+{
+  "name": "thorian",
+  "version": "0.1.2",
+  "description": "Beta integration for researching your Thorian workspace with cited source evidence.",
+  "author": {"name": "Thorian AI Inc.", "email": "constantin@thorian.ai"},
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "onboardingSkill": "./skills/thorian-connection/SKILL.md",
+  "interface": {
+    "displayName": "Thorian beta",
+    "developerName": "Thorian AI Inc.",
+    "shortDescription": "Research your private files",
+    "longDescription": "Research your published Thorian workspace files using relationships, extracted facts and cited source text. Requires an approved Thorian beta account. Installation does not grant document access. Extracted findings can be uncertain; check important claims against cited sources.",
+    "category": "Education & Research",
+    "websiteURL": "https://beta.thorian.ai",
+    "defaultPrompt": ["Summarize the key findings in my latest report.", "Compare what my documents say about this company.", "Find the source evidence for this claim."]
+  }
+}
