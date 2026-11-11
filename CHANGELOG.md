@@ -5,11 +5,12 @@
 - Use the Codex-compatible manifest and MCP configuration so Codex 0.159.2 loads the registered OAuth client, read/refresh scopes and exact localhost callback.
 - Keep research skill 1.4.3 unchanged. No account credentials are included.
 - Supersedes 0.1.1, whose portable authentication extension is not loaded by this Codex version.
+- Verified GitHub installation, browser sign-in and a read-only document query through the bundled MCP on Codex 0.159.2.
 
 ## 0.1.1
 
 - Declare Thorian's registered public OAuth client and read/refresh scopes in the portable MCP configuration. No client secret is distributed.
-- Live host authentication validation is still in progress; installation alone does not prove connectivity.
+- Superseded after authentication testing identified that Codex did not load this portable extension.
 
 ## 0.1.0
 

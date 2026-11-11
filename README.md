@@ -44,7 +44,7 @@ Research starts from graph relationships and uses original source text to resolv
 
 ## Beta validation
 
-Package validation and a clean Codex installation are checked separately from authenticated service access. Successful installation alone does not prove login works on every host. Each tester should complete sign-in and one small document query before relying on the connection.
+Version 0.1.2 passed GitHub installation, browser sign-in and a read-only document query through the plugin on Codex 0.159.2. Research skill 1.4.3 remains unchanged. This does not establish compatibility with every host or account; each tester should complete sign-in and one small document query before relying on the connection.
 
 ## Help
 
