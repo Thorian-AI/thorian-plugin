@@ -36,7 +36,7 @@ This repository is a portable package, not a universal ChatGPT installation link
 
 ## What is included
 
-- Plugin `thorian`, version **0.1.0**.
+- Plugin `thorian`, version **0.1.1**.
 - Research skill **1.4.3**, preserved byte-for-byte from the tested release.
 - A plugin-specific connection helper and `https://beta.thorian.ai/mcp` configuration.
 
