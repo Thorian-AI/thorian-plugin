@@ -1,6 +1,6 @@
 {
   "name": "thorian",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Beta integration for researching your Thorian workspace with cited source evidence.",
   "author": {"name": "Thorian AI Inc.", "email": "constantin@thorian.ai"},
   "skills": "./skills/",

@@ -30,17 +30,24 @@ codex plugin add thorian@thorian-beta
 
 Open a fresh chat after updating. Release notes are in [CHANGELOG.md](CHANGELOG.md).
 
+Research skill 1.5.1 checks Thorian's official release manifest on each invocation
+and reads newer instructions for the current task when available. This does not
+rewrite plugin caches or customized skills. Persistent installation updates use the
+commands above or your host's update control. An unavailable update check does not
+block research. Existing installations need one normal plugin update to acquire
+this behavior.
+
 ## ChatGPT
 
 This repository uses the Codex-compatible plugin format, not a universal ChatGPT installation link. Availability of repository/local plugins depends on the host and workspace; workspace imports with MCP servers may be desktop-only. A custom MCP connection by itself does not install the bundled research skill. ChatGPT beta onboarding remains in [Thorian's Agents screen](https://beta.thorian.ai/ingestion#agents); do not assume an owner-only plugin link can be installed by another account.
 
 ## What is included
 
-- Plugin `thorian`, version **0.1.2**.
-- Research skill **1.4.3**, preserved byte-for-byte from the tested release.
+- Plugin `thorian`, version **0.1.3**.
+- Research skill **1.5.1**, matching the pinned Thorian release.
 - A plugin-specific connection helper and `https://beta.thorian.ai/mcp` configuration, including the registered public OAuth client and localhost callback. No client secret is needed.
 
-Research starts from graph relationships and uses original source text to resolve gaps or ambiguity. Extracted claims may be uncertain or incomplete; retain qualifications and check material findings against their cited sources. The integration provides read-only research access. The installed skill is readable by its users and is not a security control.
+Research starts from graph relationships and uses original source text to resolve gaps or ambiguity. Extracted claims may be uncertain or incomplete; retain qualifications and check material findings against their cited sources. Document access is read-only. Connected agents can also read and save the signed-in user's personal writing voices; the skill asks before saving changes. Direct questions receive direct answers, while file outputs and complex work start with an agreed brief. The installed skill is readable by its users and is not a security control.
 
 ## Beta validation
 

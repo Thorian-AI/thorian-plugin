@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.1.3
+
+- Research skill 1.5.1 adds personal voices, document-assisted voice analysis and discovery for complex work or file outputs. Direct questions are answered without a discovery interview.
+- Check the official release manifest on each skill invocation and load newer instructions for that task when available. Installed plugin updates still use the host's normal mechanism; caches and customized skills are not overwritten.
+- Personal voices are accessible to the signed-in user's connected agents by default. Saving a voice requires user approval in the skill workflow. Document access remains read-only.
+- Preserve the existing MCP URL, OAuth client, scopes and callback; no reauthorization is required solely for this update.
+
 ## 0.1.2
 
 - Use the Codex-compatible manifest and MCP configuration so Codex 0.159.2 loads the registered OAuth client, read/refresh scopes and exact localhost callback.
